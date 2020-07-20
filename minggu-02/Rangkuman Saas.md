@@ -2,9 +2,11 @@
 Software as a Service (SaaS), layanan Cloud pada jenis ini disediakan dalam bentuk perangkat lunak. Contoh dari SaaS adalah Google Apps (Docs, Spreadsheet, dll), Office 365, dan Adobe Creative Cloud.
 
 Pada Layanan SaaS pengguna layanan hanya perlu menggunakan aplikasi tersebut tanpa harus mengerti dan mengurus bagaimana data disimpan atau bagaimana aplikasi tersebut di maintenance, karena hal tersebut merupakan service yang disediakan penyedia layanan.
-Cloud Computing atau komputasi awan merupakan kombinasi pemanfaatan teknologi komputer dengan pengembangan berbasis internet. Sebutan cloud sendiri merupakan sebuah istilah yang diberikan pada teknologi jaringan internet.
+Saas Adalah salah satu layanan dari Cloud Computing dimana kita tinggal memakai software (perangkat lunak) yang telah disediakan. User hanya tahu bahwa perangkat lunak bisa berjalan dan bisa digunakan dengan baik.
 
-Pada teknlogi komputasi berbasis awan semua data berada dan disimpan di server internet, begitu juga dengan aplikasi ataupun software yang pada umumnya dibutuhkan pengguna semuanya berada di komputer server.
+Contoh, layanan email publik (Gmail, YahooMail, Hotmail), social network (Facebook, Twitter, LinkedIn) instant messaging (Yahoo Messenger, Skype, Line, WhatsApp) dan masih banyak lagi yang lain.
+
+Dalam perkembangan-nya, banyak perangkat lunak yang dulu hanya kita bisa nikmati dengan menginstall aplikasi tersebut di komputer kita (on-premise) mulai sekarang bisa kita nikmati lewat Cloud Computing. 
 
 Sehingga kita tidak perlu melakukan instalasi pada server. Tetapi pengguna harus terhubung ke internet untuk bisa mengakses dan menjalankan aplikasi yang berada di server tersebut.
 
