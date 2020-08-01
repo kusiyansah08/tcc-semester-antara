@@ -1,22 +1,39 @@
 <h1>Platform as a Service</h1>
 
-Adalah layanan dari Cloud Computing kalau kita analogikan dimana kita menyewa “rumah” berikut lingkungan-nya (sistem operasi, network, database engine, framework aplikasi, dll), untuk menjalankan aplikasi yang kita buat.
+Platform-as-a-Service (PaaS) atau application platform as a service (aPaaS) layanan berbasis platform pada cloud computing memberi pelanggan platform lengkap - perangkat keras, perangkat lunak, dan infrastruktur - untuk mengembangkan, menjalankan, dan mengelola aplikasi   
 
-Kita tidak perlu pusing untuk menyiapkan “rumah” dan memelihara “rumah” tersebut. Yang penting aplikasi yang kita buat bisa berjalan dengan baik di “rumah” tersebut. Untuk pemeliharaan “rumah” ini menjadi tanggung jawab dari penyedia layanan.
+PaaS mencakup infrastruktur — server, penyimpanan atau storage, dan jaringan — tetapi juga middleware, alat pengembangan, layanan intelijen bisnis (BI), sistem manajemen basis data, dan banyak lagi. PaaS dirancang untuk mendukung siklus hidup aplikasi web yang lengkap: *building, testing, deploying, managing, and updating.*   
 
-Sebagai analogi, misal-nya kita sewa kamar hotel, kita tinggal tidur di kamar yang sudah kita sewa, tanpa peduli bagaimana “perawatan” dari kamar dan lingkungan-nya. Yang penting, kita bisa nyaman tinggal di kamar itu, jika suatu saat kita dibuat tidak nyaman, tinggal cabut dan pindah ke hotel lain yang lebih bagus layanan-nya.
 
-Contoh penyedia layanan PaaS ini adalah: Amazon Web Service, Windows Azure,  bahkan tradisional hosting-pun merupakan contoh dari PaaS.
+### KEUNTUNGAN PAAS  
+keuntungan dari PaaS antara lain:
+* Biaya lebih rendah : Karena tidak ada infrastruktur dibangun maka biaya yang dikenakan lebih rendah dan lebih dapat diprediksi karena sebagian besar penyedia PaaS membebani pelanggan berdasarkan penggunaan.
+* Memangkas Waktu: PaaS dapat memangkas waktu yang dibutuhkan untuk mengkode aplikasi baru dengan komponen aplikasi pra-kode yang dibangun ke dalam platform, seperti alur kerja, layanan direktori, fitur keamanan dan masih banyak lagi.
+* pemakaian sumber daya yang lebih luas, lebih mudah, lebih tidak berisiko PaaS biasanya 
+sudah termasuk akses ke berbagai pilihan yang lebih besar ke atas dan ke bawah tumpukan pengembangan aplikasi — sistem operasi, middleware, dan basis data, dan alat-alat seperti pustaka kode dan komponen aplikasi — daripada yang dapat Anda peroleh secara praktis atau praktis di tempat
+* Mengelola siklus hidup aplikasi secara efisien. PaaS menyediakan semua kemampuan yang dibutuhkan untuk mendukung siklus hidup aplikasi web lengkap seperti: membangun, menguji, menyebarkan, mengelola, dan memperbarui dalam lingkungan terintegrasi yang sama.
 
-Keuntungan dari PaaS adalah kita sebagai pengembang bisa fokus pada aplikasi yang kita buat, tidak perlu memikirkan operasional dari “rumah” untuk aplikasi yang kita buat.
-Platform as a Service (PaaS), layanan Cloud pada jenis ini disediakan dalam bentuk platform yang dapat dimanfaatkan pengguna untuk membuat aplikasi diatasnya. Contoh PaaS adalah Amazon Web Service, Microsoft Azure, Facebook, dll. Hal-hal yang dapat dilakukan pengguna layanan PaaS adalah membangun aplikasi, upload aplikasi, testing, dan mengatur konfigurasi.
 
-Keuntungan:
+### PERBEDAAN PaaS, IaaS, dan SaaS  
+PaaS, IaaS, dan SaaS merupakan tiga model layanan cloud yang paling umum, dan tidak jarang bagi organisasi untuk menggunakan ketiganya. Namun, sering ada kebingungan di antara ketiganya, berikut adalah perbedaan dari ketiganya:
+* Dengan IaaS, penyedia cloud menawarkan akses ke sumber daya komputasi 'raw', seperti server, penyimpanan, dan jaringan, tetapi Anda bertanggung jawab atas platform dan perangkat lunak aplikasi. 
 
-Pengguna dapat membuat aplikasi sendiri dengan banyak fitur yang sudah tersedia seperti keamanan platform, OS, sistem database, web server, dan framework aplikasi. Pengguna dapat lebih fokus pada pengembangan aplikasi.
+* Dengan PaaS, penyedia memberikan dan mengelola seluruh infrastruktur platform; Anda *diabstraksi* dari detail lingkungan tingkat bawah, dan Anda menggunakan platform untuk mengembangkan dan menggunakan aplikasi Anda.  
 
-Fitur utama dari PaaS biasanya adalah skalabilitas yang tinggi. Ketika aplikasi yang kita upload mulai digunakan oleh banyak user maka secara otomatis layanan PaaS akan menskalakan aplikasi kita menjadi lebih baik dalam melayani pengguna aplikasi kita. Sedangkan ketika aplikasi kembali sepi, maka akan diskalakan ulang sehingga biaya yang dibayarkan benar-benar sesuai dengan yang kita gunakan saat itu.
+* SaaS adalah perangkat lunak yang digunakan melalui cloud, seolah-olah aplikasi tersebut diinstal pada komputer Anda (dan sebagian darinya, mungkin, sebenarnya diinstal pada komputer Anda). Aplikasi SaaS berada di jaringan cloud, dan pengguna dapat menyimpan dan menganalisis data dan berkolaborasi pada proyek-proyek menyeluruh aplikasi.  
 
-Kerugian:
+### JENIS-JENIS PaaS  
+* Public, private and hybrid  
+Ada beberapa jenis PaaS, termasuk publik, private dan hybrid. PaaS awalnya ditujukan untuk aplikasi pada layanan cloud publik, sebelum meluas hingga mencakup opsi private dan hybrid.  
+Public PaaS  berasal dari software as a service (SaaS), dan terletak dalam komputasi awan antara SaaS dan infrastructure as a service (IaaS).SaaS adalah perangkat lunak yang dihosting di cloud, sehingga tidak memakan ruang hard drive di komputer pengguna.  
+Private PaaS  biasanya dapat diunduh dan diinstal baik di pusat data lokal perusahaan, atau di cloud publik. Setelah perangkat lunak diinstal pada satu atau beberapa mesin, private PaaS  mengatur komponen aplikasi dan basis data menjadi satu platform hosting.  
+Hybrid PaaS biasanya merupakan penyebaran yang terdiri dari campuran penggunaan *public* dan *private*.
 
-Fitur keamanan yang disediakan oleh layanan PaaS adalah keamanan platform, bukan keamanan aplikasi kita. Jadi kita tetap harus memperhitungkan resiko keamanan dari aplikasi kita sendiri.
+* Communications platform as a service  
+communications platform as a service (CPaaS) adalah platform berbasis cloud yang memungkinkan pengembang untuk menambahkan fitur komunikasi real-time (suara, video, dan pesan) dalam aplikasi mereka sendiri tanpa membangun infrastruktur dan antarmuka back-end.
+
+* Mobile platform as a service   
+Dimulai pada 2012, mobile PaaS (mPaaS) menyediakan kemampuan pengembangan untuk desainer aplikasi mobile dan developers. 
+
+* Open PaaS  
+Open PaaS tidak termasuk hosting, tetapi menyediakan perangkat lunak open source yang memungkinkan penyedia PaaS untuk menjalankan aplikasi di lingkungan open source, seperti Google App Engine. Beberapa platform terbuka memungkinkan pengembang menggunakan bahasa pemrograman, basis data, sistem operasi atau server untuk menyebarkan aplikasi mereka.
